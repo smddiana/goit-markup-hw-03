@@ -126,3 +126,15 @@ ul li {
 list-style-type: none;
 }
 
+/* task 3*/
+img {
+    display: block;
+}
+
+.header {
+    border-bottom: 1px solid #e7e9fc
+}
+
+.container-menu {
+    
+}

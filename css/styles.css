@@ -14,6 +14,7 @@ body {
     text-transform: uppercase;
     color: #4d5ae5;
     text-decoration: none;
+    margin-right: 76px;
     
 }
 span {
@@ -135,6 +136,24 @@ img {
     border-bottom: 1px solid #e7e9fc
 }
 
-.container-menu {
-    
+.container {
+    display: flex;
+    width: 1158px;
+    margin: 0;
+    padding: 0 15px;
+}
+.header-nav {
+    display: flex;
+    align-items: center;
+}
+.menu {
+    display: flex;
+    gap: 40px;
+}
+.list {
+    padding: 24px 0;
+}
+.address-list {
+    display: flex;
+    gap: 40px;
 }

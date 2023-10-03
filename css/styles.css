@@ -161,8 +161,16 @@ span {
 ul li {
 list-style-type: none;
 }
+ .logo-a {
+    display: inline-block;
+ }
 
-/* task 3*/
+
+
+
+
+
+/* TASK 3*/
 img {
     display: block;
 }

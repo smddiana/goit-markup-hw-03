@@ -254,6 +254,10 @@ img {
     clip-path: inset(50%);
     margin: -1px;
 }
+.logo-a {
+    display: inline-block;
+    margin-bottom: 16px;
+}
 
 
 

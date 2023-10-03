@@ -124,6 +124,8 @@ span {
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: #2e2f42;
+}
+.second-title {
     margin-bottom: 72px;
 }
 .third-section {
@@ -199,7 +201,7 @@ img {
     gap: 24px;
 }
 .example {
-    width: calc((100% - 72px) / 4);
+    flex-basis: calc((100% - 72px) / 4);
 
 }
 .list-cards {
@@ -211,7 +213,7 @@ img {
     padding: 32px 0;
 }
 .list-team {
-    width: calc((100% - 72px) / 4);
+    flex-basis: calc((100% - 72px) / 4);
 }
 .our-portfolio {
      padding-top: 120px; padding-bottom: 120px;

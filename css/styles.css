@@ -99,6 +99,7 @@ span {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    margin-bottom: 8px;
 
 }
 .text-description {
@@ -175,4 +176,15 @@ img {
 .address-list {
     display: flex;
     gap: 40px;
+}
+.second-section {
+    padding: 120px 0;
+}
+.advantages {
+    display: flex;
+    gap: 24px;
+}
+.example {
+    width: calc((100% - 72px) / 4);
+
 }

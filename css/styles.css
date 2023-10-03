@@ -206,20 +206,21 @@ img {
 }
 .advantages {
     display: flex;
+    flex-wrap: wrap;
     gap: 24px;
 }
-.advantages:first-child {
+.example {
     width calc((100% - 3 * 24px) / 4)
 }
 .list-cards {
     display: flex;
+    flex-wrap: wrap;
     gap: 24px;
-
 }
 .name-job {
     padding: 32px 0;
 }
-.list-cards:first-child {
+.list-team {
     flex-basis: calc((100% - 72px) / 4);
 }
 .our-portfolio {
@@ -231,7 +232,7 @@ img {
     column-gap: 24px;
     row-gap: 48px;
 }
-.list-portfolio:first-child {
+.portfolio-cards {
     width: calc((100% - 48px) / 3);
 }
 

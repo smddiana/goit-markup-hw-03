@@ -133,7 +133,6 @@ span {
 }
 .list-team {
     background-color: #FFFFFF;
-    width: calc((100% - 72px) / 4);
     border-radius: 0px 0px 4px 4px;
 }
 .footer {
@@ -198,53 +197,21 @@ img {
 .second-section {
     padding: 120px 0;
 }
-.advantages {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 24px;
-}
-.example {
-    flex-basis: calc((100% - 3 * 24px) / 4);
-}
-.list-cards {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 24px;
-}
-.name-job {
-    padding: 32px 0;
-}
-.list-team {
-    flex-basis: calc((100% - 72px) / 4);
-}
 .name-job {
     padding: 32px 0;
 }
 .our-portfolio {
     padding-top: 120px; padding-bottom: 120px;
 }
-.list-portfolio {
-    display: flex;
-    flex-wrap: wrap;
-    column-gap: 24px;
-    row-gap: 48px;
-}
-.portfolio-cards {
-    width: calc((100% - 48px) / 3);
-}
-
 .po-discription {
     padding: 32px 16px;
     border: 1px solid #e7e9fc;
     border-top: none;
 }
-
-
 .logo-a {
     display: inline-block;
     margin-bottom: 16px;
 }
-
 .visually-hidden {
     position: absolute;
     width: 1px;
@@ -258,6 +225,39 @@ img {
     overflow: hidden;
 }
 
+
+.advantages {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+}
+.example {
+    flex-basis: calc((100% - 3 * 24px) / 4);
+}
+
+
+
+
+
+.list-cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+}
+.list-team {
+    flex-basis: calc((100% - 72px) / 4);
+}
+
+.list-portfolio {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 24px;
+    row-gap: 48px;
+}
+
+.portfolio-cards {
+    width: calc((100% - 48px) / 3);
+}
 
 
 

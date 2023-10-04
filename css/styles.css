@@ -204,7 +204,7 @@ img {
     gap: 24px;
 }
 .example {
-    width calc((100% - 3 * 24px) / 4)
+    flex-basis: calc((100% - 3 * 24px) / 4);
 }
 .list-cards {
     display: flex;

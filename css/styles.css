@@ -208,10 +208,7 @@ img {
     border: 1px solid #e7e9fc;
     border-top: none;
 }
-.logo-a {
-    display: inline-block;
-    margin-bottom: 16px;
-}
+
 .visually-hidden {
     position: absolute;
     width: 1px;
@@ -257,6 +254,14 @@ img {
 
 .portfolio-cards {
     width: calc((100% - 48px) / 3);
+}
+
+
+.logo-container {
+    display: inline-block;
+}
+.logo-a {
+    margin-bottom: 16px;
 }
 
 

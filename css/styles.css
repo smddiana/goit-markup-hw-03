@@ -173,11 +173,13 @@ img {
 }
 
 .container {
-    display: flex;
     width: 1158px;
     margin: 0;
     padding: 0 15px;
     margin: 0 auto;
+}
+.nav-container {
+    display: flex;
 }
 .header-nav {
     display: flex;
@@ -259,6 +261,7 @@ img {
 }
 
 .logo-a {
+    display: inline-block;
     margin-bottom: 16px;
 }
 ul {

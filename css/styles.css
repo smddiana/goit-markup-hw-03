@@ -246,7 +246,7 @@ img {
     gap: 24px;
 }
 .list-team {
-    flex-basis: calc((100% - 72px) / 4);
+    width: calc((100% - 72px) / 4);
 }
 
 .list-portfolio {

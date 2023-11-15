@@ -18,7 +18,7 @@ body {
     display: inline-block;
 }
 span {
-    color: var(--IRIS, #4D5AE5);
+    color: var(--NAVY-BLUE, #2E2F42);
    
 }
 h1 h2 h3  p {
@@ -34,6 +34,10 @@ h1 h2 h3  p {
     letter-spacing: 0.02em;
     text-decoration: none;
 }
+.list {
+    padding: 24px 0;
+    display: block;
+}
 .list:hover {
     color:#404bbf;
 }
@@ -42,6 +46,7 @@ h1 h2 h3  p {
 }
 .tel-add {
     font-style: normal;
+    margin-left: auto;
 }
 .contacts {
     font-size: 16px;
@@ -154,19 +159,10 @@ h1 h2 h3  p {
     text-transform: uppercase;
     
 }
-.p-footer {
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    max-width: 264px
-    
-}
 :root {
     --text-color: #F4F4FD;
 }
 
-.p-footer {
-    color: var(--text-color);
-}
 ul li {
 list-style-type: none;
 }
@@ -199,10 +195,6 @@ img {
 .menu {
     display: flex;
     gap: 40px;
-}
-.list {
-    padding: 24px 0;
-    display: block;
 }
 .address-list {
     display: flex;
@@ -248,6 +240,9 @@ img {
   /* Додаткові стилі для першого елементу списку, які ви хочете використовувати */
 }
 
+.third-type {
+    text-align: left;
+}
 
 
 
@@ -276,7 +271,20 @@ img {
 .logo-a {
     display: inline-block;
     margin-bottom: 16px;
+    color: var(--IRIS, #4D5AE5);
+    font-family: Raleway;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 21px; /* 116.667% */
+    letter-spacing: 0.54px;
+    text-transform: uppercase;
+    width: 44px;
+    height: 21px;
+    justify-content: center;
+    text-decoration: none;
 }
+
 ul {
     padding: 0;
     /* Скинути внутрішні відступи */
@@ -288,7 +296,23 @@ ul {
 .tel-add {
     margin-left: auto;
 }
+.p-type {
+    text-align: left;
+}
 
+.p-footer {
+    color: var(--CLOUD, #F4F4FD);
+    /* Body */
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 150% */
+    letter-spacing: 0.32px;
+}
+.p-footer {
+    text-align: left;
+}
 
 
 

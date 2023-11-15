@@ -135,7 +135,15 @@ h1 h2 h3  p {
 .second-title {
     margin-bottom: 72px;
     text-align: center;
-}
+    color: var(--NAVY-BLUE, #2E2F42);
+    /* Header 3 */
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px; /* 120% */
+    letter-spacing: 0.4px;
+    }
 .third-section {
     background-color: #F4F4FD;
 }
@@ -313,6 +321,15 @@ ul {
     width: 264px;
     flex-direction: column;
     align-items: flex-start;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
 }
 
 
